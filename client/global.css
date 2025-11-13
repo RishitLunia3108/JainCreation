@@ -169,3 +169,12 @@
     @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
   }
 }
+
+@keyframes flip-horizontal {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
